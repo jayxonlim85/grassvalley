@@ -1,0 +1,29 @@
+{
+    "swagger" : "2.0",
+    "info" : {
+      "version" : "0.0.1",
+      "title" : "GV.SCS.Store.HelloWorld"
+    },
+    "host" : "uptime2.gvnewsdev.com",
+    "basePath" : "/api/v1/store/helloworld",
+    "paths" : {
+      "/Choices" : {
+        "get" : {
+          "summary" : "Returns something.",
+          "description" : "Choices description.",
+          "produces" : [ "application/json" ],
+          "parameters" : [ ],
+          "responses" : {
+            "200" : {
+              "description" : "OK"
+            },
+            "400" : {
+              "description" : "Bad Request"
+            }
+          }
+        }
+      }
+    },
+    "definitions" : { }
+  }
+  
